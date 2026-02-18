@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    
+}
+
+
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 428px;
+    width: 380px;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
