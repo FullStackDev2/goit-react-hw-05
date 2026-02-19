@@ -1,0 +1,48 @@
+.additionalTitle {
+    margin-top: 20px;
+}
+
+.additionalList {
+    padding: 0;
+}
+
+.additionalItem {
+    margin-bottom: 8px;
+}
+
+.movieContainer {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.moviePoster {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.movieInfo {
+    max-width: 600px;
+}
+
+.movieInfo h2 {
+    margin-top: 0;
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.backLink:hover {
+    color: #ff4d4d;
+    transform: translateX(-4px);
+    transition: 0.2s ease;
+}
